@@ -1,0 +1,37 @@
+{
+  "product": [
+    {
+      "id": 10001,
+      "name": "product 1",
+      "quantity": 8,
+      "unitPrice": 529,
+      "totalPrice": 8529,
+      "notes": "adding product 1"
+    },
+    {
+      "id": 10002,
+      "name": "product 2",
+      "unitPrice": 528
+    },
+    {
+      "id": 10003,
+      "name": "product 3",
+      "unitPrice": 527
+    },
+    {
+      "id": 10004,
+      "name": "product 4",
+      "unitPrice": 526
+    },
+    {
+      "id": 10005,
+      "name": "product 5",
+      "unitPrice": 526
+    },
+    {
+      "id": 10006,
+      "name": "product 6",
+      "unitPrice": 525
+    }
+  ]
+}

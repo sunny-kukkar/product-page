@@ -1,0 +1,43 @@
+{
+  "data": {
+    "product": [
+      {
+        "id": 10001,
+        "quantity": 8,
+        "notes": "adding product 1"
+      },
+      {
+        "id": 10002,
+        "quantity": 7,
+        "notes": "adding product 2"
+      },
+      {
+        "id": 10003,
+        "quantity": 6,
+        "notes": "adding product 3"
+      }
+    ],
+    "billingAddress": {
+      "firstName": "Test FN",
+      "LastName": "Test LN",
+      "address1": "ITPL",
+      "address2": "Whitefield",
+      "city": "Bangalore",
+      "stateName": "Karnataka",
+      "zip": "560068",
+      "country": "India",
+      "dateValue": 1565255729562
+    },
+    "deliveryAddress": {
+      "firstName": "Delivery FN",
+      "LastName": "Delivery LN",
+      "address1": "Marathalli",
+      "address2": "Area",
+      "city": "Bangalore",
+      "stateName": "Karanataka",
+      "zip": "560037",
+      "country": "India",
+      "dateValue": 1565255729562
+    }
+  }
+}

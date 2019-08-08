@@ -1,0 +1,112 @@
+body {
+  background-color: #cccccc;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 800px;
+  height: 630px;
+  align-items: center;
+  align-self: center;
+}
+
+.address {
+  display: flex;
+  margin: 30px 0px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.address div {
+  text-align: left;
+}
+
+.address > div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+.address > div > div {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.address input {
+  width: 220px;
+  margin-bottom: 5px;
+}
+
+.width-inherit {
+  width: inherit;
+}
+
+.product-list {
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.product-item input,
+.product-item textarea {
+  width: 100%;
+}
+.product-item > div {
+  margin-right: 20px;
+}
+
+.product-item div:not(:nth-child(2)) {
+  /* width:8%; */
+  width: 80px;
+}
+
+.product-item div:nth-child(2),
+.product-item div:nth-child(6) {
+  /* width:25%; */
+  width: 180px;
+}
+
+.product-item div:nth-child(6) {
+  /* width:15%; */
+  width: 120px;
+}
+
+.product-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-button > button {
+  margin: 30px 0px;
+}
+
+.product-button > div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.product-header input {
+  border: none;
+  border-color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+}
+.delete {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.action {
+  color: white;
+  background-color: blue;
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+}
